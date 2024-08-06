@@ -2,7 +2,7 @@ package com.tnsif.dayeight.interfaces.instanceofinterface;
 
 public class PhoneFactory {
 
-	public static void main(String[] args) {	
+	public static Phone createPhone(String company) {	
 		if (company.equalsIgnoreCase("Samsung"))
 			return new Samsung();
 		else if (company.equalsIgnoreCase("Jio"))
