@@ -2,7 +2,6 @@ package com.tnsif.dayfive.multilevelinheritance;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 public class MultilevelInheritanceDemo {
-
 	public static void main(String[] args) {
 		Person p1 = new Person("Atharv", 7878767676l, new Date(2000, 12, 2));
 		System.out.println(p1);
